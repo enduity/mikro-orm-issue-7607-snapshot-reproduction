@@ -1,0 +1,25 @@
+{
+  "name": "mikro-orm-snapshot-repro",
+  "private": true,
+  "type": "module",
+  "mikro-orm": {
+    "configPaths": [
+      "./src/mikro-orm.config.ts"
+    ],
+    "preferTs": true
+  },
+  "dependencies": {
+    "@mikro-orm/core": "7.0.12",
+    "@mikro-orm/decorators": "7.0.12",
+    "@mikro-orm/migrations": "7.0.12",
+    "@mikro-orm/postgresql": "7.0.12",
+    "@mikro-orm/reflection": "7.0.12",
+    "reflect-metadata": "0.2.2",
+    "ulid": "3.0.1"
+  },
+  "devDependencies": {
+    "@mikro-orm/cli": "7.0.12",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
+  }
+}
